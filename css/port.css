@@ -1,0 +1,75 @@
+@import "~bootstrap/dist/css/bootstrap.min.css";
+@import "~font-awesome/css/font-awesome.css";
+@import 'bootstrap-social/bootstrap-social.css';
+
+
+
+
+
+
+*{
+  border: 0; 
+	margin: 0;
+	padding: 0;
+}
+
+body {
+  color: #000000;
+  font-family: 'Slabo 27px', serif;
+}
+
+#nav {
+  font-size: 125%;
+}
+
+.page {
+  color: #4A4444;
+  font-family: 'Noto Sans', sans-serif;
+	margin: 10%;
+}
+
+#about1, #portfolio1, #contact1 {
+ min-height:100px;
+ padding-top: 0px;
+ color: #4A4444;
+ font-family: 'Noto Sans', sans-serif;
+ margin: 10%;
+ text-align: center;
+}
+
+smooth {
+	font-size: 100%;
+	text-align: center;
+}
+
+.jumbotron {
+  background: none;
+}
+
+/*---Start Parallax---*/
+
+.parallax {     
+	background: url("https://i.postimg.cc/BnqFrMNY/pexels-pixabay-373076.jpg") no-repeat fixed 100%; 
+  color: rgba(255, 255, 255, 7);
+  text-decoration: 0.7px;
+  background-size: cover;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 rgb(61, 61, 61), -1px 1px 0 #000, 1px 1px 0 #000;
+  font-family: 'Yusei Magic','Lato', sans-serif;
+  font-size: 350%;
+  text-align: center;
+  text-transform: uppercase;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+ 
+
+.parallax-inner {
+	padding-top: 20%;
+	padding-bottom: 15%;
+}
+/*---End Parallax---*/
+
+footer {
+  font-size: 150%;
+  
+}
