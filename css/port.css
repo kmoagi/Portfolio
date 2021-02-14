@@ -20,7 +20,15 @@ body {
 
 #nav {
   font-size: 125%;
+
 }
+
+.social-btn{
+
+
+}
+
+
 
 .page {
   color: #4A4444;
@@ -50,12 +58,12 @@ smooth {
 
 .parallax {     
 	background: url("https://i.postimg.cc/BnqFrMNY/pexels-pixabay-373076.jpg") no-repeat fixed 100%; 
-  color: rgba(255, 255, 255, 7);
-  text-decoration: 0.7px;
+  color: rgba(0, 0, 0, 0.7);
+ 
   background-size: cover;
-  text-shadow: -1px -1px 0 #000, 1px -1px 0 rgb(61, 61, 61), -1px 1px 0 #000, 1px 1px 0 #000;
-  font-family: 'Yusei Magic','Lato', sans-serif;
-  font-size: 350%;
+  text-shadow: #ffff;
+  font-family:  'Courgette',  'Yusei Magic','Dancing Script', 'Cedarville',' Cursive', 'cursive';
+  font-size: 300%;
   text-align: center;
   text-transform: uppercase;
   padding-left: 15%;
@@ -68,6 +76,16 @@ smooth {
 	padding-bottom: 15%;
 }
 /*---End Parallax---*/
+
+
+
+
+.social-icon{
+ text-align: center;
+ margin: 2px, 2px, 2px , 2px;
+}
+
+
 
 footer {
   font-size: 150%;
