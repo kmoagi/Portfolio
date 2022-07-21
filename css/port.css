@@ -62,7 +62,7 @@ smooth {
  
   background-size: cover;
   text-shadow: #ffff;
-  font-family:  'Courgette',  'Yusei Magic','Dancing Script', 'Cedarville',' Cursive', 'cursive';
+  font-family:  Noto Sans', sans-serif;
   font-size: 300%;
   text-align: center;
   text-transform: uppercase;
@@ -74,7 +74,39 @@ smooth {
 .parallax-inner {
 	padding-top: 20%;
 	padding-bottom: 15%;
+          
+  animation: fadeIn 5s;
+  -webkit-animation: fadeIn 5s;
+  -moz-animation: fadeIn 5s;
+  -o-animation: fadeIn 5s;
+  -ms-animation: fadeIn 5s;
 }
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+a.btn.btn-info:hover {
+font-size:35%;
+background: black;
+}
+
+
 /*---End Parallax---*/
 
 
