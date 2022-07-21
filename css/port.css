@@ -60,7 +60,7 @@ smooth {
  
   background-size: cover;
   text-shadow: #ffff;
-  font-family:  Noto Sans', sans-serif;
+  font-family:  'Noto Sans', sans-serif;
   font-size: 450%;
   text-align: center;
   text-transform: uppercase;
@@ -97,6 +97,15 @@ smooth {
 @-o-keyframes fadeIn {
   0% {opacity:0;}
   100% {opacity:1;}
+}
+
+
+h1{
+ font-size:150%;
+ font-family: 'Noto Sans', sans-serif;
+ text-tranform:uppercase;
+ text-align:center;	 
+
 }
 
 h2{
