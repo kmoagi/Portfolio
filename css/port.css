@@ -37,7 +37,7 @@ body {
 }
 
 #about1, #portfolio1, #contact1 {
- min-height:100px;
+ min-height:50px;
  padding-top: 0px;
  color: #4A4444;
  font-family: 'Noto Sans', sans-serif;
@@ -100,6 +100,53 @@ smooth {
   0% {opacity:0;}
   100% {opacity:1;}
 }
+
+h2{
+
+  font-size: 45%;
+  opacity:0.9;
+  text-align: center;
+  text-transform: uppercase;
+  padding-left: 1%;
+  padding-right: 1%;
+
+}
+
+h3{
+  
+  font-size: 75%;
+  opacity:0.9;
+  text-align: center;
+  text-transform: uppercase;
+  padding-left: 1%;
+  padding-right: 1%;
+
+}
+
+h4{
+  
+  font-size: 100%;
+  opacity:0.9;
+  text-align: center;
+  text-transform: uppercase;
+  padding-left: 1%;
+  padding-right: 1%;
+
+}
+
+
+p{
+  font-size: 35%;
+  opacity:0.9;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 1%;
+
+
+
+}
+
+
 
 a.btn.btn-info:hover {
 font-size:35%;
