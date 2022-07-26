@@ -127,7 +127,7 @@ h2{
 
 h3{
   
-  font-size: 75%;
+  font-size:100%;
   opacity:0.9;
   text-align: center;
   text-transform: uppercase;
@@ -164,6 +164,7 @@ p{
 a.btn.btn-info:hover {
 font-size:35%;
 background: black;
+padding:20%;
 }
 
 div.slide-right {
