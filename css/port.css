@@ -159,13 +159,16 @@ p{
 
 }
 
-
+button.button{
+  padding: 7px;
+ 
+}
 
 a.btn.btn-info:hover {
-font-size:35%;
+font-size:30%;
 background: black;
-padding:20%;
 }
+
 
 div.slide-right {
   width:100%;
